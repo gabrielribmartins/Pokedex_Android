@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pokedex_Android</string>
+    <string name="pokemon_image">Pokemon Image</string>
+    <string name="charmander">Charmander</string>
+    <string name="n_001">Nº 001</string>
+    <string name="fire">Fire</string>
+    <string name="firee">Nº 001</string>
+</resources>
