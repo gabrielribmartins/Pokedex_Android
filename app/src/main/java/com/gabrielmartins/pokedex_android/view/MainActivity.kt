@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.gabrielmartins.pokedex_android.R
+import com.gabrielmartins.pokedex_android.api.PokemonRepository
 import com.gabrielmartins.pokedex_android.domain.Pokemon
 import com.gabrielmartins.pokedex_android.domain.PokemonType
 
@@ -23,6 +24,8 @@ class MainActivity : AppCompatActivity() {
         )
 
         val pokemons = listOf(charmander,charmander,charmander,charmander,charmander,)
+
+        val pokemonsApi = PokemonRepository.listPokemons()
 
         val layoutManager = LinearLayoutManager(this)
         recyclerView.layoutManager = layoutManager
