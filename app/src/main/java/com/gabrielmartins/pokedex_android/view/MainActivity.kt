@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.gabrielmartins.pokedex_android.R
 import com.gabrielmartins.pokedex_android.domain.Pokemon
 import com.gabrielmartins.pokedex_android.viewmodel.PokemonViewModel
+import com.gabrielmartins.pokedex_android.viewmodel.PokemonViewModelFactory
 
 class MainActivity : AppCompatActivity() {
 
