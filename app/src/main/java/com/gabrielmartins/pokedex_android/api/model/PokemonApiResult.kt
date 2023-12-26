@@ -2,6 +2,7 @@ package com.gabrielmartins.pokedex_android.api.model
 
 import com.gabrielmartins.pokedex_android.domain.PokemonType
 
+
 data class PokemonsApiResult(
     val count: Int,
     val next: String?,
@@ -15,8 +16,9 @@ data class PokemonResult(
 )
 
 data class PokemonApiResult(
+    val id: Int,
     val name: String,
-    val type: PokemonTypeSlot
+    val types: List<PokemonTypeSlot>
 )
 
 data class PokemonTypeSlot(
